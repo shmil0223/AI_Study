@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache/
+.tox/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+.profile_default/
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data/cache (adjust as needed)
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+*.npz
+*.npy
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Local config
+*.env
+*.local
+
+# Python bytecode cache inside nested folders
+**/__pycache__/
