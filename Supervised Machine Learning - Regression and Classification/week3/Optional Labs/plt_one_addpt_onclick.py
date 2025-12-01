@@ -63,7 +63,7 @@ class plt_one_addpt_onclick:
             self.bcalc.on_clicked(self.calc_linear)
         self.bthresh = CheckButtons(axthresh, ('Toggle 0.5 threshold (after regression)',))
         self.bthresh.on_clicked(self.thresh)
-        self.resize_sq(self.bthresh)
+        #self.resize_sq(self.bthresh)
 
  #   @output.capture()  # debug
     def add_data(self, event):
